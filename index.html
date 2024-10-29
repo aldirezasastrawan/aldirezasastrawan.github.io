@@ -3,41 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us on WhatsApp</title>
+    <title>Contact Us</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
+            margin: 0;
+            padding: 20px;
             background-color: #f4f4f4;
-        }
-        .whatsapp-button {
-            padding: 15px 25px;
-            background-color: #25D366;
-            color: white;
-            border: none;
-            border-radius: 5px;
             text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        a {
             text-decoration: none;
-            font-size: 18px;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        .whatsapp {
+            background-color: #25D366; /* WhatsApp green */
+        }
+        .instagram {
+            background-color: #C13584; /* Instagram purple */
+        }
+        .shopee {
+            background-color: #F57224; /* Shopee orange */
         }
     </style>
 </head>
 <body>
-
     <h1>Contact Us</h1>
-    <a href="https://wa.me/6285121019550?text=Hallo%20Assalamualaikum%20Samma%2C%20Saya%20berminat%20model%20hijab%20yang%20....%20" class="whatsapp-button">Chat with us on WhatsApp</a>
-    <a href="https://www.instagram.com/sammaofficial_/" class="instagram-button" target="_blank">Follow us on Instagram</a>
-    
-    <h1>Shop With Us!</h1>
-    <a href="https://shopee.co.id/sammaofficial" class="shopee-button" target="_blank">Visit Our Shopee Store</a>
-    
-    <script>
-        // Optionally, you can add JavaScript for additional functionality
-    </script>
-
+    <div class="links">
+        <a href="https://wa.me/6285121019550?text=Hallo%20Assalamualaikum%20Samma%2C%20Saya%20berminat%20model%20hijab%20yang%20....%20" class="whatsapp" target="_blank">Chat with us on WhatsApp</a>
+        <a href="https://www.instagram.com/sammaofficial_/" class="instagram" target="_blank">Follow us on Instagram</a>
+        <a href="https://shopee.co.id/sammaofficial" class="shopee" target="_blank">Shopee Store</a>
+    </div>
 </body>
 </html>
